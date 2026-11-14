@@ -1,0 +1,197 @@
+.students-page {
+    width: 82%;
+    max-width: 1250px;
+    min-height: 425px;
+    margin: 0 auto;
+    padding: 38px 0;
+}
+
+.students-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.students-heading h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 0 5px;
+    color: #243447;
+}
+
+.students-heading p {
+    color: #718096;
+    margin: 0;
+}
+
+.students-heading .btn-main {
+    padding: 10px 17px;
+}
+
+.students-card {
+    background: #fff;
+    padding: 23px;
+    border-radius: 12px;
+    box-shadow: 0 5px 22px rgba(20, 56, 92, .08);
+}
+
+.students-filters {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 20px;
+}
+
+.students-filters .form-control,
+.students-filters .form-select {
+    min-height: 44px;
+    margin: 0;
+}
+
+.search-input {
+    flex: 1.15;
+    min-width: 180px;
+}
+
+.course-select {
+    flex: 1.1;
+    min-width: 170px;
+}
+
+.students-filters .btn {
+    min-height: 44px;
+    white-space: nowrap;
+    padding: 9px 14px;
+}
+
+.students-table {
+    margin: 0;
+    min-width: 1050px;
+}
+
+.students-table thead th {
+    background: #f1f4f9;
+    color: #344054;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 14px 10px;
+    white-space: nowrap;
+}
+
+.students-table tbody td {
+    padding: 13px 10px;
+    font-size: 12px;
+    color: #344054;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.students-table tbody tr:hover {
+    background: #f8fbff;
+}
+
+.student-actions {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+}
+
+.student-actions form {
+    margin: 0;
+}
+
+.student-actions .btn {
+    font-size: 11px;
+    padding: 7px 10px;
+}
+
+.topbar .main-nav form {
+    display: inline;
+    margin: 0;
+}
+
+.topbar .main-nav .nav-btn {
+    border: 0;
+    color: #fff;
+    background: #087bf5;
+    padding: 9px 15px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.topbar .main-nav .nav-btn:hover {
+    background: #0669d0;
+}
+
+.footer {
+    margin-top: 0;
+}
+
+.footer-main {
+    padding: 38px 20px 28px;
+}
+
+.footer-logo {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.footer-main h4 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.footer-main p {
+    font-size: 12px;
+    color: #d5e1ed;
+}
+
+.footer-bottom {
+    border-top: 1px solid #ffffff25;
+    padding: 15px;
+    font-size: 11px;
+}
+
+@media (max-width: 1000px) {
+    .students-page {
+        width: 92%;
+    }
+
+    .students-filters {
+        flex-wrap: wrap;
+    }
+
+    .search-input,
+    .course-select {
+        flex: 1 1 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    .students-page {
+        width: 94%;
+        padding: 28px 0;
+    }
+
+    .students-heading h1 {
+        font-size: 25px;
+    }
+
+    .students-card {
+        padding: 14px;
+    }
+
+    .students-filters > * {
+        width: 100%;
+        flex: 1 1 100%;
+    }
+
+    .students-heading .btn-main {
+        width: 100%;
+        text-align: center;
+    }
+}

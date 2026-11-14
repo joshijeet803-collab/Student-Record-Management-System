@@ -1,0 +1,8 @@
+.env
+**/.env
+vendor/
+**/vendor/
+node_modules/
+**/node_modules/
+**/storage/logs/*
+**/bootstrap/cache/*.php
